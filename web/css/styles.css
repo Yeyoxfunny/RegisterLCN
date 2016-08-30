@@ -1,0 +1,94 @@
+/*body{
+  background-color: #ECF0F1;
+}*/
+html{
+  font-size: 16px;
+}
+
+.m-botton-space{
+  margin-bottom: 1rem;
+}
+.m-top-space{
+  margin-top: 1rem;
+}
+.m-top-space__mobile{
+  margin-top: 20px;
+}
+.p-top-space__big{
+  padding-top: 7rem;
+}
+@media all and (min-width: 720px){
+  .m-top-space__mobile{
+    margin-top: 100px;
+  }
+}
+.center-block{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.toblock{
+  display: block;
+}
+
+.form-signin {
+  max-width: 400px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+
+.grow { 
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.grow a{
+  text-decoration: none;
+}
+.grow:hover { transform: scale(1.1); }
+
+.btn-adminschool{
+  width: 100%;
+}
